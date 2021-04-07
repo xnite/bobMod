@@ -1,0 +1,36 @@
+banreasons:
+  - Cheating
+  - Griefing
+  - Spam
+banpunishments:
+  Cheating:
+    time: 180d
+    desc: This player is cheating.
+    reason: You have been caught cheating. Cheating is not allowed on this server.
+  Griefing:
+    time: 90d
+    desc: This player is griefing.
+    reason: You have been caught griefing. Griefing is not allowed on this server.
+  Spam:
+    time: 6h
+    desc: Spamming chat
+    reason: You have been spamming. NO! Just... no.
+warnpunishments:
+  Cheating:
+    time: 90d
+    desc: This player is cheating.
+    reason: You are suspected of cheating. Please stop that.
+  Griefing:
+    time: 30d
+    desc: This player is griefing.
+    reason: You have been caught griefing. Please stop or risk being banned.
+  Spam:
+    time: 7d
+    desc: Spamming chat
+    reason: Please stop spamming.
+
+mutepunishments:
+  Spam:
+    time: 48h
+    desc: Spamming chat
+    reason: You have been caught spamming. Please stop that.

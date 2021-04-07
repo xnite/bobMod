@@ -1,0 +1,16 @@
+name: BobMod
+version: ${project.version}
+main: com.survivorbob.bobmod.Bobmod
+api-version: 1.16
+prefix: BobMod
+depend: [ LiteBans ]
+authors: [ KingDonkeyBong, DevCow ]
+description: SurvivorBob Moderation plugin including Litebans GUI
+website: https://www.SurvivorBob.com/
+commands:
+  bob-mod:
+    usage: '/bob-mod <player>'
+    description: 'BobMod menu'
+  bob-history:
+    usage: '/bob-history <player>'
+    description: 'BobMod history menu'
